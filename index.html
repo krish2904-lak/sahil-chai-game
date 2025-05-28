@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Who Brings Chai?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wheel-wrapper">
+      <!-- Replaced the CSS arrow with SVG arrow -->
+      <svg class="arrow" width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
+        <path d="M12 2L12 22" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+        <path d="M5 9L12 2L19 9" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+      <canvas id="wheel" width="400" height="400"></canvas>
+    </div>
+    <button id="spinBtn">SPIN</button>
+    <h2 id="result">आज कौन चाय लाएगा?</h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
